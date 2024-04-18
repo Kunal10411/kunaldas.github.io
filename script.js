@@ -3,14 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
   const mainContent = document.getElementById("main-content");
 
   // Initially hide the main content
-  mainContent.style.opacity = "0";
+  mainContent.style.visibility = "hidden";
 
   // Show loading animation for 2 seconds
   setTimeout(function() {
-      // Hide the loader
-      loader.style.opacity = "0";
-      // Fade in the main content smoothly
-      mainContent.style.transition = "opacity 1s";
-      mainContent.style.opacity = "1";
+      loader.style.display = "none";
+      mainContent.style.visibility = "visible";
+      mainContent.style.opacity = "1"; // Fade in the main content
   }, 2000);
 });
