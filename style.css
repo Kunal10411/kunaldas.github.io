@@ -670,10 +670,8 @@ buttn:hover svg {
 
 /* Style for the loading bar */
 /* Your CSS styles for loader and main content */
-<<<<<<< HEAD
+
 /* From Uiverse.io by juan-sued */ 
-=======
->>>>>>> d77b85335ab02c314c96268b25752f8e210b6177
 .loader {
   width: 100vw;
   height: 100vh;
@@ -735,9 +733,4 @@ label {
 }
 #main-content {
   opacity: 0;
-  transition: opacity 1s;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> d77b85335ab02c314c96268b25752f8e210b6177
+  transition: opacity 1s;}
