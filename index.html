@@ -1,14 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kunal Das</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kunal Das</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon" /> <!-- Add favicon link here -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
   <body>
+
+    <!-- Loading container with loading bar -->
+   
+    <div id="overlay" class="overlay hidden">
+      <div class="loader">
+        <label>Redirecting...</label>
+        <div class="loading"></div>
+      </div>
+      </div>
+  
+
+    
+
+  <div id="main-content">
+
     <nav id="desktop-nav">
         <style>
             .logo img {
@@ -18,7 +32,7 @@
             }
           </style>
       <div class="logo">
-        <img src="assets/icons8-bookmark.gif" alt="Logo">
+        <img src="assets/Open Peeps - Sitting.png" alt="Logo">
         KD</div>
       <div>
         <ul class="nav-links">
@@ -54,13 +68,17 @@
         <h1 class="title">Kunal Das</h1>
         <p class="section__text__p2"></p>
         <div class="btn-container">
+            
           <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/Kunalresume.pdf')">
-            Download CV
-        </button>
-    </button>
+          class="btn btn-color-2"
+          onclick="window.open('./assets/Kunal_Fresher.pdf')">
+          Download CV
+      </button>
+  </button>
 </button>
+        
+
+
 
         </div>
         <div id="socials-container">
@@ -70,13 +88,14 @@
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/kunal-das-a75829235/'"
           />
+          
           <img
             src="./assets/icons8-github.gif"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/Kunal10411'"
           />
-          <img
+          <img 
            src="./assets/icons8-whatsapp.gif"
            alt="WhatsApp"
            class="icon"
@@ -112,7 +131,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p> <br />Data Analysis</p>
             </div>
             <div class="details-container">
               <img
@@ -127,7 +146,7 @@
           <div class="text-container">
             <p>
                 Completed a Bachelor's Degree in Engineering (B.E) with a focus on Computer Science and Engineering. Additionally, I actively participated in extracurricular activities and projects.These experiences not only enhanced my technical skills but also fostered teamwork, problem-solving, and communication abilities.
-            </p>Moreover, I pursued internships and practical training opportunities, gaining hands-on experience in Frontend As well as Backend. These experiences allowed me to apply theoretical knowledge to real-world challenges and further develop my expertise in Computer Science.
+            </p>Moreover, I pursued internships and practical training opportunities, gaining hands-on experience in Frontend adn Data Analysis. These experiences allowed me to apply theoretical knowledge to real-world challenges and further develop my expertise in Computer Science.
         </p>
             </p>
           </div>
@@ -146,7 +165,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Programming Languages</h2>
             <div class="article-container">
               <article>
                 <img
@@ -181,14 +200,29 @@
                   <p>Basic</p>
                 </div>
               </article>
+
+              <article>
+                <img
+                  src="./assets/icons8-checkmark.gif"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
               <article>
               
+                
+
+               
               
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
+            <h2 class="experience-sub-title">Databases and Tools</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,8 +242,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Flask Framework</h3>
-                  <p>Basic</p>
+                  <h3>Ms Excel</h3>
+                  <p>Advanced</p>
                 </div>
               </article>
               <article>
@@ -219,7 +253,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>MongoDB</h3>
+                  <h3>Power BI</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -253,16 +287,16 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project1.png"
+                src="./assets/projec1.jpg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">IMPLEMENTATING THE CONCEPT OF SOLAR ENERGY AND SOLAR POWER USING GLUT</h2>
+            <h2 class="experience-sub-title project-title">Optimizing Hotel Performance with Data-Driven Insights</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Kunal10411/Graphics-project'"
+                onclick="location.href='https://github.com/Kunal10411/Optimizing-Hotel-Performance-with-Data-Driven-Insights'"
               >
                 Github
               </button>
@@ -272,19 +306,65 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/projec2.jpg"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Reminders</h2>
+            <h2 class="experience-sub-title project-title">Driving Strategic Sales Decisions with Power BI</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Kunal10411/-Driving-Strategic-Sales-Decisions-with-Power-BI'"
               >
                 Github
               </button>
+
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Tajmahal.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Virtual Reality and AI/ML Powered History Guides for Immersive education and Tourism</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kunal10411/VR-with-AIML-Project'"
+              >
+                Github
+              </button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/api.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Simple API Integration</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kunal10411/Simple_API_Integration'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kunal10411.github.io/Simple_API_Integration'"
+              >
+                Live Demo
+              </button>
+             
               
             </div>
           </div>
@@ -296,17 +376,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Food Application</h2>
+            <h2 class="experience-sub-title project-title">Typing-Test Webapp</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Kunal10411/Typing-Test-Project'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://kunal10411.github.io/Typing-Test-Project/'"
               >
                 Live Demo
               </button>
@@ -334,12 +414,23 @@
           <p><a href="mailto:kunaldas1423@gmail.com">kunaldas1423@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/icons8-linkedin.gif"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/kunal-das-a75829235/">LinkedIn</a></p>
+
+          <a href="https://www.linkedin.com/in/kunal-das-a75829235/" target="_blank" rel="noopener noreferrer">
+            <buttn>
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                  </svg>
+                </div>
+              </div>
+              <span>LinkedIn</span>
+            </buttn>
+          </a>
+          
+
+          
         </div>
       </div>
     </section>
@@ -353,9 +444,14 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
+
+        
+
+
       </nav>
       <p>Copyright &#169; 2024 Kunal Das. All Rights Reserved.</p>
     </footer>
+    </div>
     <script src="script.js"></script>
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
 <script src="https://mediafiles.botpress.cloud/4e53bdb7-d2f2-4a74-a7ca-c519a23d176f/webchat/config.js" defer></script>
